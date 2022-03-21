@@ -26,7 +26,7 @@ public class Red implements ApplicationContextAware, BeanNameAware, EmbeddedValu
 
     @Override
     public void setEmbeddedValueResolver(StringValueResolver resolver) {
-        String s = resolver.resolveStringValue("你好${os.name},我是#{20*18}");
+        String s = resolver.resolveStringValue("你好 ${os.name},我是#{20*18}");
         System.out.println("解析的字符串:"+s);
     }
 }

@@ -3,7 +3,7 @@ package com.npu.test;
 import com.npu.bean.Person;
 import com.npu.config.MainConfig;
 import com.npu.config.MainConfig2;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.core.env.ConfigurableEnvironment;
 

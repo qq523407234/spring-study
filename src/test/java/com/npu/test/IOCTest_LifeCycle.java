@@ -1,7 +1,7 @@
 package com.npu.test;
 
 import com.npu.config.MainConfigOfLifeCycle;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class IOCTest_LifeCycle {

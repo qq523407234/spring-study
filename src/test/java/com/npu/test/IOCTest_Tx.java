@@ -4,7 +4,7 @@ import com.npu.bean.Person;
 import com.npu.config.MainConfig2;
 import com.npu.tx.TxConfig;
 import com.npu.tx.UserService;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.core.env.ConfigurableEnvironment;
 

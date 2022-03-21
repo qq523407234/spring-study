@@ -3,7 +3,7 @@ package com.npu.test;
 import com.npu.bean.Person;
 import com.npu.config.MainConfigOfLifeCycle;
 import com.npu.config.MainConfigOfPropertyValues;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class IOCTest_PropertyValue {

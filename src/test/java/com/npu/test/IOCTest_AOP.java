@@ -4,7 +4,7 @@ import com.npu.aop.MathCalculator;
 import com.npu.bean.Person;
 import com.npu.config.MainConfig2;
 import com.npu.config.MainConfigOfAOP;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.core.env.ConfigurableEnvironment;
